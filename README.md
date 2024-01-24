@@ -13,17 +13,19 @@
 
 <h3>***###Simple Search###***</h3>
 
-Simple search takes the board name and shortended version name,
+<p>Simple search takes the board name and shortended version name,
 so instead of 15437.63.0 it would be 114.
-This works but needs preset variables to work so when cros updates you need to download the new script.
+This works but needs preset variables to work so when cros updates you need to download the new script.</p>
 
 <h3>***###Search / Normal Mode###***</h3>
 
-Search or just the normal mode takes the board name and the full version name so instead of 114 it would be 15437.63.0.
-It does take longer to find lower or higher version but is more futureproof.
+<p>Search or just the normal mode takes the board name and the full version name so instead of 114 it would be 15437.63.0.
+It does take longer to find lower or higher version but is more futureproof.</p>
 
 <h3>***###Board Names###***</h3>
 
-It just prints the boards I gave support for this.
+<p>It just prints the boards I gave support for this.</p>
 
-You can make a issue if you have other boards I should add
+<p>You can make a issue if you have other boards I should add</p>
+
+<p>Sorry the md guide told me to put #s for heading and it didn't work so I am just using htmltags now.</p>
