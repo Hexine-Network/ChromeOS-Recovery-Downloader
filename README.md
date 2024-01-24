@@ -1,27 +1,28 @@
-**#CrOS Recovery Finder/Downloader#**
-##You can test it here##
+<h1>**#CrOS Recovery Finder/Downloader#**</h1>
+<h2>##You can test it here##</h2>
+
 [Online Python IDE](https://www.online-python.com/d6z23LeIoA)
 
-##What it does##
+<h2>##What it does##</h2>
 
-Basically its a simple script written in python that takes input from the user and puts it together to make the **Recovery Image Link**.
+<p>Basically its a simple script written in python that takes input from the user and puts it together to make the **Recovery Image Link**.</p>
 
-<h1>##The Modes**##</h1>
+<h2>##The Modes**##</h2>
 
-###There are *three modes*###
+<h3>###There are *three modes*###</h3>
 
-***###Simple Search###***
+<h3>***###Simple Search###***</h3>
 
 Simple search takes the board name and shortended version name,
 so instead of 15437.63.0 it would be 114.
 This works but needs preset variables to work so when cros updates you need to download the new script.
 
-***###Search / Normal Mode###***
+<h3>***###Search / Normal Mode###***</h3>
 
 Search or just the normal mode takes the board name and the full version name so instead of 114 it would be 15437.63.0.
 It does take longer to find lower or higher version but is more futureproof.
 
-***###Board Names###***
+<h3>***###Board Names###***</h3>
 
 It just prints the boards I gave support for this.
 
