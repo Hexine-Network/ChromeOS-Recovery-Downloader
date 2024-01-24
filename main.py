@@ -163,10 +163,13 @@ def fetcher():
     print("The download url to your recovery image is", download)
     exit()
 def boards():
-    print("Octopus = v32")
+    print("octopus = v32")
     print("grunt = v7")
     print("dedede = v31")
     print("coral = v21")
+    print("brya = multiple numbers")
+    print("hana = v8")
+    print("x86-mario = v3")
     print("That is all the boards I choose to add.")
 #Simple python app I made so I can find chromeos recovery files easy instead of going on cros.tech
 print("Welcome to ChromeOS Recovery Fetcher v1 or CRF1")
