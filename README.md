@@ -6,7 +6,7 @@
 
 Basically its a simple script written in python that takes input from the user and puts it together to make the **Recovery Image Link**.
 
-##The Modes**
+<h1>##The Modes**##</h1>
 
 ###There are *three modes*###
 
