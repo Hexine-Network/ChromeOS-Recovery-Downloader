@@ -1,6 +1,12 @@
+def flex():
+    print("I am not sure where to find old flex images but here is the latest")
+    latest = "https://dl.google.com/chromeos-flex/images/latest.bin.zip"
+    
 def simplesearch():
     board = input("enter board name *example octopus*")
     crosversion = input("enter chromeos version *example 112*")
+    if crosversion == "121":
+        crosnumber = "15699.72.0"
     if crosversion == "120":
         crosnumber = "15662.76.0"
     if crosversion == "119":
@@ -33,6 +39,8 @@ def simplesearch():
     if board == "coral":
         boardnum = "21"
     if board == "brya":
+        if crosversion == "121":
+            boardnum = "14"
         if crosversion == "120":
             boardnum = "14"
         if crosversion == "119":
@@ -57,6 +65,8 @@ def simplesearch():
         #Below is a patch for the number problem
         brya20 = "3"
         brya5 = "2"
+        if crosversion == "121":
+            boardnum = "14"
         if crosversion == "120":
             boardnum = "14"
         if crosversion == "119":
@@ -180,7 +190,7 @@ print(line2)
 print("Please choose an action.")
 print("!WARNING! Some v120 boardnumbers are different!")
 #Board numbers just in case
-print("[1]. board support [2]. Search [3]. Simple Search")
+print("[1]. Board support [2]. Search [3]. Simple Search  [4]. CrOS Flex")
 action = input("")
 if action == "1":
     boards()
@@ -188,6 +198,8 @@ if action == "2":
     fetcher()
 if action == "3":
     simplesearch()
+if action == "4":
+    flex()
 #end of code
 exit()
 #made by slideshowgames
